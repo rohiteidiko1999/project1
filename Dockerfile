@@ -1,2 +1,2 @@
-from tomcat
-copy target/*.war /usr/local/tomcat/webapps/ROOT.war
+FROM tomcat
+COPY target/*.war /home/ec2-user/jenkins-home/jenkins-home/workspace/project1
